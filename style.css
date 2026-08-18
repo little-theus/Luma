@@ -553,3 +553,30 @@ h1, h2, h3, p { margin: 0; }
   object-fit: contain;
   border-radius: 22px;
 }
+
+/* Language switcher */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 18px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  color: inherit;
+  padding: 4px 2px;
+  font: inherit;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+  opacity: 1;
+}
+
