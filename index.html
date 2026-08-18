@@ -1,1 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="meta_title">Luma — A quiet space for reflection</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta_desc" content="Luma is a reflection and self-care app that helps you record difficult moments, notice patterns, and care for yourself over time. Currently a functional prototype in validation.">
+
+<!-- Social sharing preview (WhatsApp, Instagram, LinkedIn, iMessage, etc.) -->
+<!-- Replace og:url below with your real domain once the site is hosted -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luma-app.example/">
+<meta property="og:title" content="Luma — A quiet space for reflection">
+<meta property="og:description" content="A reflection and self-care app to record difficult moments, notice patterns, and care for yourself over time.">
+<meta property="og:image" content="https://luma-app.example/assets/social-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Luma — A quiet space for reflection">
+<meta name="twitter:description" content="A reflection and self-care app to record difficult moments, notice patterns, and care for yourself over time.">
+<meta name="twitter:image" content="https://luma-app.example/assets/social-preview.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="glow-field" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Luma</a>
+    <nav class="site-nav" id="site-nav">
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#journey" data-i18n="nav_journey">Journey</a>
+      <a href="#features" data-i18n="nav_features">Features</a>
+      <a href="#privacy" data-i18n="nav_privacy">Privacy</a>
+      <a href="#stage" data-i18n="nav_stage">Stage</a>
+      <a href="mailto:theusp.ferreira@gmail.com?subject=Luma%20%E2%80%94%20Get%20in%20touch" class="nav-cta" data-i18n="nav_contact">Get in touch</a>
+    </nav>
+    <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">
+      <span class="lang-option is-active" data-lang="en">EN</span>
+      <span class="lang-divider">/</span>
+      <span class="lang-option" data-lang="pt">PT</span>
+    </button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="hero_eyebrow">A private space for reflection</p>
+        <h1 class="hero-title">Luma</h1>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">A quiet place to record hard moments, notice patterns, and care for yourself — one reflection at a time.</p>
+        <div class="hero-actions">
+          <a href="#journey" class="btn btn-primary" data-i18n="hero_cta_primary">See how it works</a>
+          <a href="mailto:theusp.ferreira@gmail.com?subject=Luma%20%E2%80%94%20Get%20in%20touch" class="btn btn-ghost" data-i18n="hero_cta_ghost">Get in touch</a>
+        </div>
+        <p class="hero-meta" data-i18n="hero_meta">Functional prototype · Validation stage · Currently in Portuguese</p>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orb-wrap">
+          <div class="orb"></div>
+          <div class="orb-ring"></div>
+        </div>
+        <div class="phone-mock">
+          <div class="phone-mock-inner">
+            <img src="assets/screenshot-home.jpg" alt="Luma app — home screen">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner reveal">
+      <p class="eyebrow" data-i18n="about_eyebrow">What is Luma?</p>
+      <p class="about-text" data-i18n="about_text_1">Luma is a reflection and self-care app. It helps you record difficult moments, look back on what happened, and recognize patterns over time — so you can understand yourself a little better and prepare for what comes next.</p>
+      <p class="about-text about-text-muted" data-i18n="about_text_2">Luma is not a diagnostic or treatment tool. It's a companion for reflection, meant to sit quietly alongside the people and professionals who already support you.</p>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="journey" id="journey">
+    <div class="container">
+      <p class="eyebrow reveal" data-i18n="journey_eyebrow">The Luma journey</p>
+      <h2 class="section-title reveal" data-i18n="journey_title">Five steps, always in your own time</h2>
+
+      <ol class="journey-flow">
+        <li class="journey-step reveal">
+          <span class="step-mark">01</span>
+          <h3 data-i18n="step1_title">Record</h3>
+          <p data-i18n="step1_desc">Capture what happened, how intense it felt, and what came with it.</p>
+        </li>
+        <li class="journey-step reveal">
+          <span class="step-mark">02</span>
+          <h3 data-i18n="step2_title">Reflect</h3>
+          <p data-i18n="step2_desc">Look back with a clearer mind, away from the moment itself.</p>
+        </li>
+        <li class="journey-step reveal">
+          <span class="step-mark">03</span>
+          <h3 data-i18n="step3_title">Recognize</h3>
+          <p data-i18n="step3_desc">Notice patterns forming across your own history.</p>
+        </li>
+        <li class="journey-step reveal">
+          <span class="step-mark">04</span>
+          <h3 data-i18n="step4_title">Prepare</h3>
+          <p data-i18n="step4_desc">Turn what you've learned into a plan for next time.</p>
+        </li>
+        <li class="journey-step reveal">
+          <span class="step-mark">05</span>
+          <h3 data-i18n="step5_title">Continue</h3>
+          <p data-i18n="step5_desc">Keep going — one entry, one day at a time.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <p class="eyebrow reveal" data-i18n="features_eyebrow">Features</p>
+      <h2 class="section-title reveal" data-i18n="features_title">Small tools for a steady practice</h2>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="records"></div>
+          <h3 data-i18n="feat_records_title">Records</h3>
+          <p data-i18n="feat_records_desc">Register moments, intensity, thoughts, sensations, reactions and what followed.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="tree"></div>
+          <h3 data-i18n="feat_tree_title">My Tree</h3>
+          <p data-i18n="feat_tree_desc">A visual representation of your journey's continuity — it grows as you keep showing up.</p>
+        </article>
+        <article class="feature-card feature-card-glow reveal">
+          <div class="feature-icon" data-icon="bubble"></div>
+          <h3 data-i18n="feat_bubble_title">Calm Bubble</h3>
+          <p data-i18n="feat_bubble_desc">A simple pause for reflection, with gentle messages and visual change.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="echoes"></div>
+          <h3 data-i18n="feat_echoes_title">Echoes</h3>
+          <p data-i18n="feat_echoes_desc">Freely register thoughts or moments to come back to later.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="plan"></div>
+          <h3 data-i18n="feat_plan_title">Prevention Plan</h3>
+          <p data-i18n="feat_plan_desc">Organize your own strategies for moments of rising pressure or difficulty.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="network"></div>
+          <h3 data-i18n="feat_network_title">Support Network</h3>
+          <p data-i18n="feat_network_desc">Add people you trust and reach them easily by WhatsApp, call, or text.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" data-icon="reminders"></div>
+          <h3 data-i18n="feat_reminders_title">Reminders</h3>
+          <p data-i18n="feat_reminders_desc">Set gentle nudges to help you keep a steady reflection routine.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section class="privacy" id="privacy">
+    <div class="container privacy-inner">
+      <div class="privacy-visual reveal" aria-hidden="true">
+        <div class="privacy-orb"></div>
+      </div>
+      <div class="privacy-copy reveal">
+        <p class="eyebrow" data-i18n="privacy_eyebrow">Privacy</p>
+        <h2 class="section-title" data-i18n="privacy_title">Designed with privacy in mind</h2>
+        <p data-i18n="privacy_text_1">Luma's core features are built to work locally, right on your device — no account and no email address required to start reflecting.</p>
+        <p data-i18n="privacy_text_2">Your entries are stored locally on your device. No approach can promise absolute security, but privacy is treated as a design principle from the start, not an afterthought.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRENT STAGE -->
+  <section class="stage" id="stage">
+    <div class="container">
+      <p class="eyebrow reveal" data-i18n="stage_eyebrow">Current stage</p>
+      <h2 class="section-title reveal" data-i18n="stage_title">Honest about where Luma is today</h2>
+
+      <div class="stage-grid">
+        <div class="stage-card reveal">
+          <span class="stage-pill" data-i18n="stage1_pill">Functional prototype</span>
+          <p data-i18n="stage1_desc">Built in HTML, CSS and JavaScript, packaged with Capacitor for Android.</p>
+        </div>
+        <div class="stage-card reveal">
+          <span class="stage-pill" data-i18n="stage2_pill">Validation stage</span>
+          <p data-i18n="stage2_desc">Actively being tested and refined — this is not a finished, market-proven product yet.</p>
+        </div>
+        <div class="stage-card reveal">
+          <span class="stage-pill" data-i18n="stage3_pill">Independent project</span>
+          <p data-i18n="stage3_desc">Not backed by a company or investors. Built and maintained independently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="partners" id="partners">
+    <div class="container partners-inner reveal">
+      <p class="eyebrow" data-i18n="partners_eyebrow">Looking for partners</p>
+      <h2 class="section-title" data-i18n="partners_title">Building this alongside the right people</h2>
+      <p class="partners-text" data-i18n="partners_text">Luma is an independent project looking for people and organizations to help it grow through validation, research, and real-world piloting.</p>
+      <ul class="partners-tags">
+        <li data-i18n="tag1">Early users for validation</li>
+        <li data-i18n="tag2">Digital health organizations</li>
+        <li data-i18n="tag3">Researchers</li>
+        <li data-i18n="tag4">Pilot project opportunities</li>
+        <li data-i18n="tag5">UX/UI collaboration</li>
+        <li data-i18n="tag6">Technical support</li>
+        <li data-i18n="tag7">International partners</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner reveal">
+      <h2 class="section-title" data-i18n="contact_title">Let's talk</h2>
+      <p data-i18n="contact_text">Interested in trying Luma, collaborating, or learning more about the project? Reach out.</p>
+      <a href="mailto:theusp.ferreira@gmail.com?subject=Luma%20%E2%80%94%20Get%20in%20touch" class="btn btn-primary btn-large" data-i18n="contact_cta">Get in touch</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo logo-small">Luma</span>
+    <p data-i18n="footer_text">An independent project. The current prototype is available in Portuguese.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
