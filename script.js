@@ -41,4 +41,22 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach(el => observer.observe(el));
   }
 
+  /* Language switcher */
+  const langEn = document.getElementById('lang-en');
+  const langPt = document.getElementById('lang-pt');
+
+  function setLanguage(lang) {
+    document.querySelectorAll('[data-en][data-pt]').forEach(element => {
+      element.textContent = element.getAttribute(`data-${lang}`);
+    });
+
+    langEn.classList.toggle('active', lang === 'en');
+    langPt.classList.toggle('active', lang === 'pt');
+  }
+
+  if (langEn && langPt) {
+    langEn.addEventListener('click', () => setLanguage('en'));
+    langPt.addEventListener('click', () => setLanguage('pt'));
+  }
+
 });
