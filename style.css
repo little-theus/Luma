@@ -501,6 +501,24 @@ h1, h2, h3, p { margin: 0; }
 }
 .logo-small { font-size: 16px; color: var(--color-ink); }
 
+.site-footer { border-top: 1px solid var(--color-line); padding: 40px 0; }
+.footer-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: var(--color-ink-faint);
+  font-size: 13.5px;
+}
+.logo-small { font-size: 16px; color: var(--color-ink); }
+
+.footer-email {
+  color: var(--color-ink-soft);
+  font-size: 13.5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-left: auto;
+}
+
 /* ============================================
    Scroll reveal
    ============================================ */
