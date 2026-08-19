@@ -117,7 +117,7 @@ const translations = {
     feat_tree_desc: "Uma representação visual da continuidade da sua jornada — ela cresce conforme você continua se dedicando.",
     feat_bubble_title: "Calm Bubble",
     feat_bubble_desc: "Uma pausa simples para reflexão, com mensagens suaves e mudança visual.",
-    feat_echoes_title: "Echoes",
+    feat_echoes_title: "My Moments",
     feat_echoes_desc: "Registre livremente pensamentos ou momentos para revisitar depois.",
     feat_plan_title: "Prevention Plan",
     feat_plan_desc: "Organize suas próprias estratégias para momentos de pressão ou dificuldade crescente.",
